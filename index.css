@@ -78,11 +78,29 @@ h2{
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   border-left: none;
+  cursor: pointer;
   
 }
 
 main{
-  background-color: #f3f1f1;
   width: 550px;
+  height: 571px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.start i,
+.start h3{
+  color: #DFDDDD;
+}
+
+.start i{
+  font-size: 4.375rem;
+}
+
+.start h3{
+  font-size: 1.125rem;
 }
